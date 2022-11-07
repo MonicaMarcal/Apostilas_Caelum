@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="css/bootstrap.css" rel="stylesheet" />
     <link href="css/matricula.css" rel="stylesheet" />
+    <link href="css/scroolTop.css" rel="stylesheet" />
     <link href="img/favicon.ico" rel="icon" />
     <title>Matriculas</title>
   </head>
   <body>
-    <header class="header">
+    <header id="matricula" class="header">
       <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">
           <img
@@ -153,9 +154,13 @@
       <button type="button" class="js-botao-matricula btn btn-outline-dark btn-lg mb-4">
         Confirmar Matrícula
       </button>
+      <button onclick="topFunction()" id="botao__ScrollTop" title="voltar ao top da pagina"><img src="img/icons8-scroll-up-50.png"></button>
+
     </main>
+
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/matricula.js"></script>
+    <script src="js/scroolTop.js"></script>
   </body>
 </html>

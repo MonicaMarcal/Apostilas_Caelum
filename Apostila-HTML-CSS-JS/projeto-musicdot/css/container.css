@@ -4,6 +4,7 @@
   padding-right: 5%;
 }
 
+
 @media (min-width: 1066px) {
 .container {
   padding-left: calc((100% - 960px) / 2);
